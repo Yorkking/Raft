@@ -1,0 +1,122 @@
+Test (2B): basic agreement ...
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 1, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 1, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[]
+2020/03/24 14:28:39 index: 1, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 server: 2  term: 0  logs:[{0 {}}] state: 0, commited: 0
+2020/03/24 14:28:39 server: 2  term: 1  logs:[{0 {}}] state: 2, commited: 0
+2020/03/24 14:28:39 server: 0  term: 1  logs:[{0 {}}] state: 0, commited: 0
+2020/03/24 14:28:39 server: 0  term: 1  logs:[{0 {}}] state: 0, commited: 0
+2020/03/24 14:28:39 server: 1  term: 1  logs:[{0 {}}] state: 0, commited: 0
+2020/03/24 14:28:39 server: 1  term: 1  logs:[{0 {}}] state: 0, commited: 0
+2020/03/24 14:28:39 index1: -1   ok: false
+2020/03/24 14:28:39 index1: 0   ok: true
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[]
+2020/03/24 14:28:39 server: 2  term: 1  logs:[{0 {}} {1 100}] state: 2, commited: 0
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 server: 0  term: 1  logs:[{0 {}} {1 100}] state: 0, commited: 0
+2020/03/24 14:28:39 server: 1  term: 1  logs:[{0 {}} {1 100}] state: 0, commited: 0
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 server: 2  term: 1  logs:[{0 {}} {1 100}] state: 2, commited: 1
+2020/03/24 14:28:39 server: 1  term: 1  logs:[{0 {}} {1 100}] state: 0, commited: 1
+2020/03/24 14:28:39 server: 0  term: 1  logs:[{0 {}} {1 100}] state: 0, commited: 1
+2020/03/24 14:28:39 i: 0 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 i: 0 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+2020/03/24 14:28:39 server: 2  term: 1  logs:[{0 {}} {1 100}] state: 2, commited: 1
+2020/03/24 14:28:39 server: 0  term: 1  logs:[{0 {}} {1 100}] state: 0, commited: 1
+2020/03/24 14:28:39 server: 1  term: 1  logs:[{0 {}} {1 100}] state: 0, commited: 1
+2020/03/24 14:28:39 i: 0 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 1 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 i: 2 logs: map[1:100]
+2020/03/24 14:28:39 index: 0, cmd1: <nil>, ok: false
+2020/03/24 14:28:39 index: 0  nd:0  cmd1:<nil>  cmd:100  ex:3
+signal: interrupt
+FAIL	_/home/shuitang/distribute_system/raft/6.824/src/raft	0.587s
